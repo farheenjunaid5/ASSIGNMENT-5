@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <table border="1" width="80%">
+            <tr>
+                <th style="background-color: #67fa91;">Step 1: Account</th>
+                <th style="background-color: #67fa91;">Step 2: Personal details</th>
+                <th style="background-color: #8e8efc;">Step 3: Your review</th>
+            </tr>
+        </table>
+    </center> <br><br>
+    <form action="">
+    <fieldset>
+        <legend>
+            Your Review:
+        </legend> <br>
+        <label for="hear">How did you hear about us?
+            <select name="hear" id="hear" required>
+                <option value="">Select Your Option</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Google">Google</option>
+            </select>
+        </label><br><br><br>
+
+        <label for="visit">Would you visit again?
+            <input type="radio" name="visit" id="visit" value="Yes" required>Yes
+            <input type="radio" name="visit" id="visit" value="No" required>No
+            <input type="radio" name="visit" id="visit" value="Maybe" required>Maybe
+        </label> <br><br><br>
+
+        <label for="Comments">Comments: <br>
+            <textarea name="comments" id="Comments" rows="5" cols="40" placeholder="Enter your comments here"
+                required></textarea>
+        </label> <br><br>
+       
+        <label for="Document">Document:  <br>
+            <input type="file" name="Document" id="Document" required>
+        </label><br><br><br>
+
+        <label for="emailupdates">
+            <input type="checkbox" name="emailupdates" id="emailupdates" value="signup">Sign me up for email updates
+        </label> <br><br><br>
+
+        <a href="step2.html"> <img src="pics/back arrow.jpeg" alt="" width="100"> </a>
+
+        <input type="image" name="submit" src="pics/submit.png" alt="submit" width="85">
+       
+    </fieldset>
+    </form>
+</body>
+</html>
